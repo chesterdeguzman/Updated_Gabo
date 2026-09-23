@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>For Gabo — A Fresh Start</title>
+<meta name="description" content="A soft, intentional little corner made for Gabo." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<div class="grain" aria-hidden="true"></div>
+
+<section class="music-gate" id="musicGate">
+  <div class="gate-card">
+    <div class="gate-copy">
+      <div class="gate-status"><i></i> private page // made with intention</div>
+      <p class="gate-kicker">Frank Ely — “Puwede Ka Ba?”</p>
+      <h1>Gabo,<br><em>puwede ba?</em></h1>
+      <p>One song first. No rushing, no pressure—just a little moment before you enter this page I made for you.</p>
+      <button class="play-btn" id="playSong"><span>▶</span><b>Play “Puwede Ka Ba?”</b></button>
+      <div class="progress" id="progressWrap">
+        <div class="progress-meta"><span id="audioState">ready</span><span id="audioTime">0:00</span></div>
+        <div class="track"><span id="bar"></span></div>
+      </div>
+      <button class="skip-btn" id="enterAnyway">Enter without audio →</button>
+      <audio id="song" preload="metadata"><source src="assets/puwede-ka-ba.mp3" type="audio/mpeg"></audio>
+    </div>
+    <div class="gate-photo"><img src="assets/gabo-2.png" alt="Portrait of Gabo"></div>
+  </div>
+</section>
+
+<main class="site" id="site">
+  <nav class="nav">
+    <a href="#top" class="brand">For <span>Gabo</span></a>
+    <div class="nav-links"><a href="#about">About You</a><a href="#about-me">About Me</a><a href="#romance">Little Things</a><a href="#letter">The Letter</a><a href="#gallery">Gallery</a></div>
+    <div class="nav-heart">♡</div>
+  </nav>
+
+  <section class="hero" id="top">
+    <div class="hero-copy">
+      <p class="eyebrow">a fresh start / a more intentional us</p>
+      <h2>Hi, <span>Gabo.</span></h2>
+      <p class="hero-lead">Same two people. A softer beginning. A chance to build something new—this time, aligned.</p>
+      <p class="hero-note">I know you as a medtech, a matcha lover, and a hopeless romantic. But I don’t want to stop at the things I already know. I want the real you—the ordinary days, the quiet parts, the little details, and everything that takes time to discover.</p>
+      <a class="cta" href="#letter">Read my letter <span>→</span></a>
+      <span class="micro">// no grand promises. just honest intention.</span>
+    </div>
+    <div class="hero-visual">
+      <img src="assets/gabo-5.png" class="hero-img" alt="Gabo portrait">
+      <div class="hand-note">good people<br>still exist <small>and maybe good beginnings do too ♡</small></div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section-head"><div><p class="eyebrow">01 / what makes you, you</p><h3>The things I know about you.</h3></div><div class="section-num">01 / 06</div></div>
+    <div class="about-grid">
+      <div class="portrait-pair"><img src="assets/gabo-3.png" alt="Gabo close-up"><img src="assets/gabo-1.png" alt="Gabo full body portrait"></div>
+      <div class="about-copy">
+        <p>I know you as a medtech, a matcha lover, and a hopeless romantic. Those are only a few pieces of you—and I don’t want to pretend I already know the rest.</p>
+        <p>I want to discover the person behind those details naturally: what makes you laugh, what your difficult days look like, what matters to you, what makes you feel cared for, and all the ordinary things that only time can teach me.</p>
+        <div class="pills"><span class="pill">medtech</span><span class="pill">matcha lover</span><span class="pill">hopeless romantic</span><span class="pill">still getting to know you ♡</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about-me">
+    <div class="section-head"><div><p class="eyebrow">02 / before you know my intentions</p><h3>Let me introduce myself, too.</h3></div><div class="section-num">02 / 06</div></div>
+    <div class="about-grid self-grid">
+      <div class="portrait-pair"><img src="assets/gabo-4.png" alt="A personal page made by Ches"><div class="self-note"><span>from Ches,</span><strong>not just a confession—<br>an introduction.</strong><small>because if I want to know you genuinely, I want you to know me genuinely too. ♡</small></div></div>
+      <div class="about-copy">
+        <p>Hi Gabo. I’m <strong>Chester Mikhail De Guzman</strong>, but you can call me <strong>Ches</strong> or Yosa. I’m 24, the eldest of four siblings, and a lot of who I am comes from caring deeply about the people I love.</p>
+        <p>I’m a homebody at heart. I enjoy quiet moments, games like Roblox, Valorant, and Grand Chase, K-dramas, thrillers and horror movies, and music that makes ordinary days feel a little softer. I work as a Data Analyst and also do freelance Project Management, so life can get busy—but I believe being present is something you choose, not something you do only when you have spare time.</p>
+        <p>I can be playful, clingy, emotional, and a little maharot, but when something matters to me, I take it seriously. I value reassurance, honest communication, loyalty, consistency, and making people feel remembered in the small ways.</p>
+        <p>I’m still learning, still growing, and definitely not perfect. But if I’m asking for the chance to know you properly, I want you to have the same chance to know the real me—not only the person writing a romantic page for you.</p>
+        <div class="pills"><span class="pill">Ches / Yosa</span><span class="pill">data analyst</span><span class="pill">project manager</span><span class="pill">homebody</span><span class="pill">eldest sibling</span><span class="pill">loves deeply</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section romance" id="romance">
+    <div class="section-head"><div><p class="eyebrow">03 / little romantic things</p><h3>Not grand. Just meaningful.</h3></div><div class="section-num">03 / 06</div></div>
+    <div class="romance-grid">
+      <article class="rom-card"><div class="emoji">🍵</div><h4>A matcha date, no agenda.</h4><p>Just us sitting somewhere unhurried, telling each other the kind of stories that don’t make it into small talk.</p><code>$ status: present\n$ distractions: none\n$ company: you ♡</code></article>
+      <article class="rom-card"><div class="emoji">💌</div><h4>Notes you can open anytime.</h4><p>Small letters for the days you need reassurance, encouragement, or just a reminder that someone is thinking of you.</p><code>// open_when: pagod ka\n// open_when: miss mo ako\n// open_when: ordinary day lang</code></article>
+      <article class="rom-card"><div class="emoji">📷</div><h4>A timeline of ordinary moments.</h4><p>Not just milestones—random photos, tiny wins, silly screenshots, good food, bad hair days, and moments that quietly become ours.</p><code>memory.save("the little things")</code></article>
+      <article class="rom-card"><div class="emoji">♡</div><h4>A fresh-start promise.</h4><p>Not a promise of forever. A promise to communicate honestly, choose clarity, protect each other’s peace, and see if something real can grow.</p><code>$ intention --verify\n✓ honest\n✓ mutual\n✓ intentional</code></article>
+    </div>
+  </section>
+
+  <section class="section" id="letter">
+    <div class="section-head"><div><p class="eyebrow">04 / the letter</p><h3>Can we start over?</h3></div><div class="section-num">04 / 06</div></div>
+    <div class="letter-wrap">
+      <div class="envelope-stage"><div class="envelope"><div class="envelope-letter">For Gabo,<br>a new chapter?<small>from Ches ♡</small></div></div></div>
+      <div class="letter-copy">
+        <p class="eyebrow">same people / clearer intentions</p>
+        <h3>Can we build something new—this time, aligned?</h3>
+        <p>Hi Gabo,</p>
+        <p>I’ve been thinking about us, and I don’t want to keep trying to continue something if we’re carrying old expectations into it. I’d rather ask for something simpler and more honest: can we start over?</p>
+        <p>I want a fresh beginning where we both know what we’re choosing. No guessing games, no half-presence, no pressure to force a label before we’re ready. I want us to actually learn each other again—with clearer intentions, better communication, and enough honesty to say what we need.</p>
+        <div class="letter-quote">“I’m not asking us to go back. I’m asking if we can move forward differently.”</div>
+        <p>If we try again, I want it to feel mutual. I want us to be aligned about what we’re exploring, to give each other a fair chance, and to protect the space we’re creating from unnecessary distractions.</p>
+        <p>I still want to know you more—the medtech behind the long days, the matcha lover, the hopeless romantic, and all the parts of you I haven’t met yet. I want to show you my intentions through consistency, not just words.</p>
+        <p>I don’t need a promise of forever. I just want to know if you’re willing to begin again with me—more intentionally this time.</p>
+        <p><strong>Gabo, puwede ba kitang ligawan—from the beginning, properly this time?</strong></p>
+        <p>If your answer is yes, send me <strong>“el gato”</strong> on Instagram. 🐱🤍</p>
+        <p>And if you’re not ready, please tell me honestly. I’ll respect that too. I want whatever happens next to be something we both genuinely choose.</p>
+        <p>With sincerity, a little kaba, and a lot of affection,<br><strong>Ches</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section gallery" id="gallery">
+    <div class="section-head"><div><p class="eyebrow">05 / him, in frames</p><h3>A few of my favorite you’s.</h3></div><div class="section-num">05 / 06</div></div>
+    <div class="gallery-row"><img src="assets/gabo-5.png" alt="Gabo seated portrait"><img src="assets/gabo-2.png" alt="Gabo close portrait"><img src="assets/gabo-4.png" alt="Gabo standing portrait"><img src="assets/gabo-3.png" alt="Gabo portrait"></div>
+    <p class="gallery-note">“Maybe romance is just noticing someone carefully.” ♡</p>
+  </section>
+
+  <section class="final" id="final">
+    <div class="final-inner">
+      <p class="eyebrow">06 / one simple question</p>
+      <h3>If you’re willing...</h3>
+      <p>Can we leave the old version of us where it belongs and choose a cleaner beginning—one where we are honest about what we want, intentional with each other, and present enough to see what this could become?</p>
+      <p class="question">Can we start over and build something new?</p>
+      <div class="tiny-heart">♡</div>
+    </div>
+  </section>
+
+  <footer><span>For Gabo — made with intention</span><span>same people / brighter chapter</span></footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
